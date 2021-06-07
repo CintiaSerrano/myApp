@@ -61,3 +61,6 @@ git push origin master
 Estamos diciendo que estamos pusheando en la rama master.
 NO se puede PUSHEAR si no COMITEAMOS
 
+git pull origin master
+Trae los cambios que traemos del remoto al local
+*/
