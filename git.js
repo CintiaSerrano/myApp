@@ -35,4 +35,29 @@ Run
   git config --global user.name "Your Name"
 to set your account's default identity.
 Omit --global to set the identity only in this repository. 
-fatal: unable to auto-detect email address (got 'Ivis@DESKTOP-LTE7EVO.(none)') */
+fatal: unable to auto-detect email address (got 'Ivis@DESKTOP-LTE7EVO.(none)') 
+**************************************************
+git log
+te muestra todos los commits que hicimos hasta ahora
+*********************************
+git config user.name
+nombre de usuario
+git config user.email
+mail registrado*
+
+**************************************
+$ git remote add origin https://github.com/emignis/myApp.git
+ESTO ES HACIENDOLO DESDE LA PAGINA DE GIT HUB
+CREANDO UN COMMIT DESDE AHÍ
+
+$ git remote -v
+origin  https://github.com/emignis/myApp.git (fetch)
+origin  https://github.com/emignis/myApp.git (push) 
+
+Así sabemos desde donde estamos trabajando. Tiene que quedar
+el link de la url q nos dio cuando creamos el repositorio.
+
+git push origin master
+Estamos diciendo que estamos pusheando en la rama master.
+NO se puede PUSHEAR si no COMITEAMOS
+
